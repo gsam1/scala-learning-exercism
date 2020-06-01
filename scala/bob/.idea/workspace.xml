@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PropertiesComponent">
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/Code/class/functional_programming_scala/example" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Code/class/functional_programming_scala/objsets" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Code/class/functional_programming_scala/pa.week1.02/recfun" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Code/class/functional_programming_scala/pa.week2.01/funsets" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Code/class/functional_programming_scala/tutorial_001_setup" value="PREVIEW" />
+        <entry key="$USER_HOME$/Exercism/scala/grade-school" value="PREVIEW" />
+        <entry key="$USER_HOME$/Exercism/scala/leap" value="PREVIEW" />
+        <entry key="$USER_HOME$/Exercism/scala/space-age" value="PREVIEW" />
+        <entry key="$USER_HOME$/Exercism/scala/two-fer" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+</project>
