@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.8":{"hashes":[["/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala","03ee66238128c2f3ef2f6f3164b65c4ef0d4ef69"]],"lastModifiedTimes":[]}}]

@@ -1,18 +1,23 @@
-class School {
+class School(database: Map[Int, Seq[String]]) {
   type DB = Map[Int, Seq[String]]
 
-  private val _db = scala.collection.mutable.Map.empty[Int, Seq[String]]
+  def this() {
+    this(Map.empty)
+  }
 
-  def db: Map[Int, Seq[String]] = _db.toMap
+  def db: DB = database
 
-  def add(name: String, g: Int): Unit =
-    _db.update(g, db.getOrElse(g, Seq.empty[String]) :+ name)
+  def add(name: String, g: Int): School = {
+    if (this.db.contains(g)) {
+      val updatedGrade = this.db(g) :+ name
+      new School(this.db + (g -> updatedGrade))
+    } else {
+      new School(this.db + (g -> Seq(name)))
+    }
+  }
 
-  def grade(g: Int): Seq[String] = _db.getOrElse(g, Seq.empty[String])
+  def grade(g: Int): Seq[String] = this.db(g)
 
-  def sorted: Map[Int, Seq[String]] =
-    _db.toSeq
-      .sortBy(_._1)
-      .map(a => (a._1, a._2.sorted))
-      .toMap
+  def sorted: DB =
+    db.toSeq.sortBy(_._1).map(x => (x._1, x._2.sorted)).toMap
 }

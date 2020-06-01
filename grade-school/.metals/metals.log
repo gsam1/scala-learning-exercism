@@ -1,0 +1,133 @@
+2020.05.31 23:25:00 INFO  started: Metals version 0.9.0 in workspace '/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school'
+2020.05.31 23:25:01 INFO  time: initialize in 0.66s
+2020.05.31 23:25:02 INFO  no build target: using presentation compiler with only scala-library
+2020.05.31 23:25:06 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/yt/w61w_f5j0sl207y6bljhbzvc0000gn/T/metals4611802122265636521/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.05.31 23:25:07 INFO  skipping build import with status 'Started'
+2020.05.31 23:25:13 WARN  no build target for: /Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala
+2020.05.31 23:25:25 INFO  [info] Loading global plugins from /Users/georgisamardzhiev/.sbt/1.0/plugins
+2020.05.31 23:25:43 INFO  [info] Loading settings for project grade-school-build from metals.sbt ...
+2020.05.31 23:25:43 INFO  [info] Loading project definition from /Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/project
+2020.05.31 23:25:44 INFO  [info] Updating ProjectRef(uri("file:/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/project/"), "grade-school-build")...
+2020.05.31 23:25:51 INFO  [info] Done updating.
+2020.05.31 23:25:56 INFO  [info] Loading settings for project grade-school from build.sbt ...
+2020.05.31 23:25:56 INFO  [info] Set current project to grade-school (in build file:/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/)
+2020.05.31 23:25:56 INFO  [info] Updating ...
+2020.05.31 23:25:57 INFO  [info] Done updating.
+2020.05.31 23:25:57 INFO  [success] Generated .bloop/grade-school.json
+2020.05.31 23:25:57 INFO  [success] Generated .bloop/grade-school-test.json
+2020.05.31 23:25:57 INFO  [success] Total time: 1 s, completed May 31, 2020 11:25:58 PM
+2020.05.31 23:25:58 INFO  build tool exit: 0
+2020.05.31 23:25:58 INFO  time: ran 'sbt bloopInstall' in 51s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/yt/w61w_f5j0sl207y6bljhbzvc0000gn/T/bsp-launcher1571315740376046574/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/.bloop/grade-school.json'
+[0m[32m[D][0m Loading project from '/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/.bloop/grade-school-test.json'
+[0m[32m[D][0m Missing analysis file for project 'grade-school-test'
+[0m[32m[D][0m Missing analysis file for project 'grade-school'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/yt/w61w_f5j0sl207y6bljhbzvc0000gn/T/bsp-launcher1571315740376046574/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/yt/w61w_f5j0sl207y6bljhbzvc0000gn/T/bsp-launcher1571315740376046574/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.31 23:25:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/georgisamardzhiev/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.31 23:25:59 INFO  time: connected to build server in 1.09s
+2020.05.31 23:25:59 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.05.31 23:25:59 INFO  time: imported build in 0.12s
+2020.05.31 23:26:06 INFO  time: indexed workspace in 6.59s
+2020.05.31 23:26:06 INFO  compiling grade-school (1 scala source)
+2020.05.31 23:26:14 INFO  time: compiled grade-school in 7.62s
+2020.05.31 23:26:14 INFO  compiling grade-school-test (1 scala source)
+2020.05.31 23:26:14 INFO  time: compiled grade-school-test in 0.76s
+2020.05.31 23:26:14 ERROR Unexpected error when compiling grade-school-test: 'java.lang.RuntimeException: /packages cannot be represented as URI'
+May 31, 2020 11:26:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 30, 30, 44)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 30, 30, 44)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 30, 30, 517)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 30, 30, 510)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 30, 30, 511)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 30, 30, 510)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 30, 30, 44)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 30, 30, 46)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 30, 30, 39)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 30, 30, 41)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in (<error>, <error>)RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 35, 35, 49)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in (<error>, <error>)RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 35, 35, 50)
+May 31, 2020 11:27:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 221
+May 31, 2020 11:27:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 271
+May 31, 2020 11:27:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 411
+May 31, 2020 11:28:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 493
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 139)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 132)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 133)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[Int]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 134)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 133)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 132)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 139)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 141)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 134)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 135)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 134)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[<error>]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 135)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in List[Int]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 125, 125, 136)
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in (Int, <error>)RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 130, 130, 144)
+May 31, 2020 11:28:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 665
+May 31, 2020 11:29:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 870
+something's wrong: no file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala in Seq[String]RangePosition(file:///Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala/GradeSchool.scala, 267, 267, 278)
+2020.05.31 23:31:02 INFO  compiling grade-school (1 scala source)
+2020.05.31 23:31:02 INFO  time: compiled grade-school in 0.63s
+2020.05.31 23:31:32 INFO  time: evaluated worksheet 'playground.sc.worksheet.sc' in 29s
+2020.05.31 23:31:36 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+May 31, 2020 11:31:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NoSuchMethodError: scala.tools.nsc.Global.close()V
+	at mdoc.internal.worksheets.Mdoc.shutdown(Mdoc.scala:39)
+	at scala.meta.internal.worksheets.WorksheetProvider.$anonfun$clearBuildTarget$1(WorksheetProvider.scala:78)
+	at scala.meta.internal.worksheets.WorksheetProvider.$anonfun$clearBuildTarget$1$adapted(WorksheetProvider.scala:78)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.worksheets.WorksheetProvider.clearBuildTarget(WorksheetProvider.scala:78)
+	at scala.meta.internal.worksheets.WorksheetProvider.$anonfun$reset$1(WorksheetProvider.scala:82)
+	at scala.meta.internal.worksheets.WorksheetProvider.$anonfun$reset$1$adapted(WorksheetProvider.scala:82)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.meta.internal.worksheets.WorksheetProvider.reset(WorksheetProvider.scala:82)
+	at scala.meta.internal.worksheets.WorksheetProvider.cancel(WorksheetProvider.scala:89)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:28)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:27)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:18)
+	at scala.meta.internal.metals.MetalsLanguageServer.cancel(MetalsLanguageServer.scala:86)
+	at scala.meta.internal.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:674)
+	... 16 more
+

@@ -1,0 +1,129 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "grade-school",
+        "directory": "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school",
+        "workspaceDir": "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school",
+        "sources": [
+            "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala-2.12",
+            "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/scala",
+            "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/java",
+            "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/georgisamardzhiev/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar"
+        ],
+        "out": "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/.bloop/grade-school",
+        "classesDir": "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/.bloop/grade-school/scala-2.12/classes",
+        "resources": [
+            "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/src/main/resources",
+            "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.8",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/georgisamardzhiev/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.8.jar",
+                "/Users/georgisamardzhiev/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar",
+                "/Users/georgisamardzhiev/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar",
+                "/Users/georgisamardzhiev/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar",
+                "/Users/georgisamardzhiev/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar"
+            ],
+            "analysis": "/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school/target/streams/compile/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Users/georgisamardzhiev/Documents/Code/class/scala-learning-exercism/grade-school"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.8",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/georgisamardzhiev/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/georgisamardzhiev/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
