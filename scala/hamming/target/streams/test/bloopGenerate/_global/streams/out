@@ -1,0 +1,4 @@
+[debug] [hamming-test] Classpath dependencies List()
+[debug] [hamming-test] Dependencies from configurations List(hamming)
+[debug] Bloop wrote the configuration of project 'hamming-test' to '/home/fury/Code/scala/scala-learning-exercism/scala/hamming/.bloop/hamming-test.json'
+[success] Generated .bloop/hamming-test.json

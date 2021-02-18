@@ -1,4 +1,0 @@
-[debug] [bob-test] Classpath dependencies List()
-[debug] [bob-test] Dependencies from configurations List(bob)
-[debug] Bloop wrote the configuration of project 'bob-test' to '/Users/georgisamardzhiev/Documents/Code/scala/scala-learning-exercism/scala/bob/.bloop/bob-test.json'
-[success] Generated .bloop/bob-test.json
