@@ -1,0 +1,4 @@
+[debug] [secret-handshake] Classpath dependencies List()
+[debug] [secret-handshake] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'secret-handshake' to '/Users/georgisamardzhiev/Documents/Code/scala/scala-learning-exercism/scala/secret-handshake/.bloop/secret-handshake.json'
+[success] Generated .bloop/secret-handshake.json
