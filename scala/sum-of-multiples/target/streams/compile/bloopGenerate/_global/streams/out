@@ -1,0 +1,4 @@
+[debug] [sum-of-multiples] Classpath dependencies List()
+[debug] [sum-of-multiples] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'sum-of-multiples' to '/Users/georgisamardzhiev/Documents/Code/scala/scala-learning-exercism/scala/sum-of-multiples/.bloop/sum-of-multiples.json'
+[success] Generated .bloop/sum-of-multiples.json
